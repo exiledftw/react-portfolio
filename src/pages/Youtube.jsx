@@ -9,9 +9,9 @@ const MAX_RESULTS = 6; // Number of recent videos to display
 function Youtube() {
   const [videos, setVideos] = useState([]);
   const [channelStats, setChannelStats] = useState({
-    subscriberCount: 'N/A',
-    videoCount: 'N/A',
-    viewCount: 'N/A'
+    subscriberCount: '-',
+    videoCount: '-',
+    viewCount: '-'
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
