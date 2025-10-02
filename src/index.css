@@ -770,7 +770,9 @@ html {
 
 .section-title {
   font-size: 2.5rem;
-  color: #ffffff;
+  color: #e9eaf3;
+  text-shadow: 
+  10 10 30px #fffcfc;
   text-align: center;
   margin: 0 0 2rem 0;
   font-weight: 700;
