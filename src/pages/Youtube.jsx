@@ -190,7 +190,7 @@ function Youtube() {
               </h1>
             </a>
             <p className="youtube-subtitle">
-              Educational content about programming, automation, and tech tutorials
+              Hobby based channel for gaming and code highlights, tutorials, and tech reviews.
             </p>
           </div>
 
