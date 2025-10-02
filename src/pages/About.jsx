@@ -130,13 +130,15 @@ function About() {
           <h2 className="section-title">A Bit More Personal</h2>
           <div className="personal-content">
             <p>
-              Add some personal details here - your hobbies, interests outside of work, 
-              fun facts about yourself, or anything that helps visitors get to know 
-              the real you beyond your professional accomplishments.
+              I love video gaming. In my spare time I enjoy playing competitive games!
+              Games like Rainbow Six Siege, Grand Theft Auto Online etc. Playing these games make 
+              me realize how far we have come in terms of technology and code writing, someday I aim 
+              to make my own video game aswell!
             </p>
             <p>
-              This could include your favorite books, travel experiences, 
-              side projects, or causes you care about. Make it authentic and engaging!
+              Apart from this I also love to read books and watch movies. I recently read a web novel
+              The Beginning After The End, which is a fantasy novel about a king who gets reincarnated
+              into a new world with magic and dragons, it is a really good read and I highly recommend it!
             </p>
           </div>
         </div>

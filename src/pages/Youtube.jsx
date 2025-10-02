@@ -285,15 +285,12 @@ function Youtube() {
           <h2 className="section-title">About My Channel</h2>
           <div className="description-content">
             <p>
-              Welcome to my YouTube channel! Here, I share my knowledge and experience in 
-              programming, automation, and software development. Whether you're a beginner 
-              looking to learn Python or an experienced developer seeking automation solutions, 
-              you'll find valuable content here.
+              Welcome to my YouTube channel! Here, I share all sorts of videos that may be about video games, 
+              coding, tech etc.
             </p>
             <p>
-              I focus on practical, real-world examples that you can implement immediately. 
-              From web scraping tutorials to data automation workflows, my goal is to help 
-              you save time and become more efficient in your programming journey.
+              It's a personal hobby of mine, sometimes when I play games or code usually I highlight them by recording
+              them and uploading them here, I also share tutorials and tips on programming, automation, and other tech-related topics.
             </p>
           </div>
         </div>
@@ -301,7 +298,7 @@ function Youtube() {
           {/* Subscribe CTA */}
           <div className="subscribe-cta">
             <h2>Stay Updated with Latest Content</h2>
-            <p>Subscribe to get notified about new tutorials and programming tips!</p>
+            <p>Take a look and I hope you like what you see!!</p>
             <a 
               href="https://youtube.com/@exiledftw5308" 
               target="_blank" 
