@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
+import ContactPopup from '../components/ContactPopup/ContactPopup';
 
 function Projects() {
+  const [isContactPopupOpen, setIsContactPopupOpen] = useState(false);
+
+  const handleGetInTouchClick = (e) => {
+    e.preventDefault();
+    setIsContactPopupOpen(true);
+  };
+
+  const closeContactPopup = () => {
+    setIsContactPopupOpen(false);
+  };
+
   return (
     <>
       <Navbar />
@@ -143,7 +155,7 @@ function Projects() {
           <div className="projects-cta">
             <h2>Interested in Working Together?</h2>
             <p>I'm always excited to take on new challenges and create innovative solutions.</p>
-            <a href="#contact" className="cta-button">Get In Touch</a>
+            <button onClick={handleGetInTouchClick} className="cta-button">Get In Touch</button>
           </div>
         </div>
         
@@ -152,6 +164,12 @@ function Projects() {
           <p className="copyright">&copy; {new Date().getFullYear()} Project Thunder. All rights reserved.</p>
         </footer>
       </div>
+
+      {/* Contact Popup */}
+      <ContactPopup 
+        isOpen={isContactPopupOpen} 
+        onClose={closeContactPopup} 
+      />
     </>
   );
 }
