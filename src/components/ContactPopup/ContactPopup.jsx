@@ -82,7 +82,7 @@ function ContactPopup({ isOpen, onClose }) {
                     Send Email
                   </a>
                   <button 
-                    onClick={() => copyToClipboard('exiledftw@example.com', 'Email')}
+                    onClick={() => copyToClipboard('khizarkhurshid3@gmail.com', 'Email')}
                     className="contact-action-btn secondary"
                   >
                     Copy
