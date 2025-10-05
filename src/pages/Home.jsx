@@ -14,7 +14,7 @@ function Home() {
       <div className="page-container">
         <div className="home">
           <div className="home-container">
-            <h1 className="home-title">Hello there!</h1>
+            <h1 className="home-title">Greetings!</h1>
             <p className="home-subtitle">Thank you for taking a keen interest!</p>
 
             {/* Cards row */}
