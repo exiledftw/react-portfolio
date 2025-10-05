@@ -24,7 +24,7 @@ function Projects() {
           <div className="projects-header">
             <h1 className="projects-main-title">My Projects</h1>
             <p className="projects-subtitle">
-              Here's a showcase of my work - from data automation to web scraping solutions
+              Here is a showcase of my work - from data automation to web scraping solutions
             </p>
           </div>
 
