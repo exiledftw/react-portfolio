@@ -39,14 +39,14 @@ function Projects() {
               </div>
             </div>
             <div className="project-content">
-              <h3>Python Data Automation</h3>
+              <h3>PDF to TXT conversion</h3>
               <p>Automated data processing pipeline that converts PDFs to Excel, performs data cleaning and generates comprehensive reports.</p>
               <div className="project-tech">
                 <span className="tech-tag">Python</span>
-                <span className="tech-tag">Pandas</span>
+                <span className="tech-tag">pdfplumber</span>
                 <span className="tech-tag">PyPDF2</span>
               </div>
-              <a href="#" className="project-link">View Project</a>
+              <a href="https://github.com/exiledftw/pdf_to_text" className="project-link">View Project</a>
             </div>
           </div>
 
@@ -66,7 +66,7 @@ function Projects() {
                 <span className="tech-tag">BeautifulSoup</span>
                 <span className="tech-tag">Selenium</span>
               </div>
-              <a href="#" className="project-link">View Project</a>
+              <a href="https://github.com/exiledftw/DataScraper" className="project-link">View Project</a>
             </div>
           </div>
 
