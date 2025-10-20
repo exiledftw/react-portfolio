@@ -86,7 +86,7 @@ function Projects() {
                 <span className="tech-tag">Vite</span>
                 <span className="tech-tag">CSS3</span>
               </div>
-              <a href="#" className="project-link">View Project</a>
+              <a href="https://github.com/exiledftw/react-portfolio" className="project-link">View Project</a>
             </div>
           </div>
 
