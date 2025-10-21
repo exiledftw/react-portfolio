@@ -1481,3 +1481,30 @@ html {
   }
 
 }
+
+/* Project Links Container for multiple buttons */
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-links .project-link {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+}
+
+/* Mobile responsiveness for project links */
+@media (max-width: 768px) {
+  .project-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .project-links .project-link {
+    flex: none;
+    width: 100%;
+  }
+}

@@ -89,10 +89,16 @@ function Projects() {
                       <span className="tech-tag">Django</span>
                       <span className="tech-tag">Sqlite3</span>
                         </div>
+                        <div className="project-links">
                         <a href="https://exiledftw.pythonanywhere.com/" 
                         className="project-link" 
                         target="_blank"
                         rel="noopener noreferrer">View Project</a>
+                        <a href="https://exiledftw.pythonanywhere.com/" 
+                        className="project-link" 
+                        target="_blank"
+                        rel="noopener noreferrer">View Website</a>
+                        </div>
                         </div>
                       </div>
                       </div>
