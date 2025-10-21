@@ -86,7 +86,7 @@ function Projects() {
                 <span className="tech-tag">Tkinter</span>
                 <span className="tech-tag">qrcode</span>
               </div>
-              <a href="#" className="project-link">View Project</a>
+              <a href="https://github.com/exiledftw/QR_Code_Generator" className="project-link">View Project</a>
             </div>
           </div>
 </div>
