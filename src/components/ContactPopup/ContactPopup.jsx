@@ -73,16 +73,16 @@ function ContactPopup({ isOpen, onClose }) {
               </div>
               <div className="contact-info">
                 <h3>Email</h3>
-                <p className="contact-value">khizarkhurshid3@gmail.com</p>
+                <p className="contact-value">thunder.corp@icloud.com</p>
                 <div className="contact-actions">
                   <a 
-                    href="mailto:exiledftw@example.com" 
+                    href="mailto:thunder.corp@icloud.com" 
                     className="contact-action-btn"
                   >
                     Send Email
                   </a>
                   <button 
-                    onClick={() => copyToClipboard('khizarkhurshid3@gmail.com', 'Email')}
+                    onClick={() => copyToClipboard('thunder.corp@icloud.com', 'Email')}
                     className="contact-action-btn secondary"
                   >
                     Copy
