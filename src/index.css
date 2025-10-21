@@ -5,7 +5,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, hsl(285, 94%, 7%) 0%, #000000 50%, #190125 100%);
+  background: linear-gradient(135deg, hsla(284, 89%, 18%, 1.00) 0%, #000000 50%, #3b0158 100%);
   background-attachment: fixed;
 }
 
