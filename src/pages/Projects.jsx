@@ -40,33 +40,13 @@ function Projects() {
             </div>
             <div className="project-content">
               <h3>PDF to TXT conversion</h3>
-              <p>Automated data processing pipeline that converts PDFs to Excel, performs data cleaning and generates comprehensive reports.</p>
+              <p>Extracts text from a pdf file.</p>
               <div className="project-tech">
                 <span className="tech-tag">Python</span>
                 <span className="tech-tag">pdfplumber</span>
                 <span className="tech-tag">PyPDF2</span>
               </div>
               <a href="https://github.com/exiledftw/pdf_to_text" className="project-link">View Project</a>
-            </div>
-          </div>
-
-          <div className="project-card">
-            <div className="project-image">
-              <div className="project-placeholder">
-                <svg viewBox="0 0 24 24" fill="currentColor" className="project-icon">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                </svg>
-              </div>
-            </div>
-            <div className="project-content">
-              <h3>Web Scraping Suite</h3>
-              <p>Comprehensive web scraping solution with automated data collection, processing, and storage capabilities for various websites.</p>
-              <div className="project-tech">
-                <span className="tech-tag">Python</span>
-                <span className="tech-tag">BeautifulSoup</span>
-                <span className="tech-tag">Selenium</span>
-              </div>
-              <a href="https://github.com/exiledftw/DataScraper" className="project-link">View Project</a>
             </div>
           </div>
 
@@ -109,48 +89,7 @@ function Projects() {
               <a href="#" className="project-link">View Project</a>
             </div>
           </div>
-
-          <div className="project-card">
-            <div className="project-image">
-              <div className="project-placeholder">
-                <svg viewBox="0 0 24 24" fill="currentColor" className="project-icon">
-                  <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
-                </svg>
-              </div>
-            </div>
-            <div className="project-content">
-              <h3>File Conversion Tool</h3>
-              <p>Multi-format file conversion utility supporting PDF, Excel, CSV, and image formats with batch processing capabilities.</p>
-              <div className="project-tech">
-                <span className="tech-tag">Python</span>
-                <span className="tech-tag">Pillow</span>
-                <span className="tech-tag">openpyxl</span>
-              </div>
-              <a href="#" className="project-link">View Project</a>
-            </div>
-          </div>
-
-          <div className="project-card">
-            <div className="project-image">
-              <div className="project-placeholder">
-                <svg viewBox="0 0 24 24" fill="currentColor" className="project-icon">
-                  <path d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z"/>
-                </svg>
-              </div>
-            </div>
-            <div className="project-content">
-              <h3>Desktop Automation Suite</h3>
-              <p>Complete desktop automation solution for repetitive tasks, including file management and system monitoring.</p>
-              <div className="project-tech">
-                <span className="tech-tag">Python</span>
-                <span className="tech-tag">PyAutoGUI</span>
-                <span className="tech-tag">Schedule</span>
-              </div>
-              <a href="#" className="project-link">View Project</a>
-            </div>
-          </div>
-        </div>
-
+</div>
           {/* Call to Action */}
           <div className="projects-cta">
             <h2>Interested in Working Together?</h2>
