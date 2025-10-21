@@ -126,7 +126,15 @@ function About() {
         </div>
 
         {/* Personal Touch Section */}
-        <div className="personal-section">
+                <div className="personal-section">
+          <h2 className="section-title">Certifications</h2>
+          <div className="personal-content">
+            <p>
+              Google Professional Cyber Security Certificate.
+            </p>
+          </div>
+        </div>
+                        <div className="personal-section">
           <h2 className="section-title">A Bit More Personal</h2>
           <div className="personal-content">
             <p>
@@ -148,7 +156,7 @@ function About() {
         <footer className="page-footer">
           <p className="copyright">&copy; {new Date().getFullYear()} Project Thunder. All rights reserved.</p>
         </footer>
-      </div>
+      </div> 
     </>
   );
 }
